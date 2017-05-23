@@ -1,0 +1,3 @@
+rootProject.name = 'DemoAnimatedBug'
+
+include ':app'
