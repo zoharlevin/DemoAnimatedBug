@@ -47,6 +47,7 @@ const DemoAnimatedBug = ({scrollY, animationRange}) =>  {
     };
                     
 
+    // remove "color: animateColor" OR "animateTransform" and the code will work but together there's an error
       return (<View>      
         <Animated.Text style={[{ position:'absolute',                                          
                                   color: animateColor
